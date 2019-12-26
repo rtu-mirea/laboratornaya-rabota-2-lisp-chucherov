@@ -4,3 +4,4 @@
         (loop for line = (read-line in nil)
     while line do (format t "~a~%" line))
     (close in)))
+(out ("test.txt"))
